@@ -8,7 +8,12 @@ func main() {
 	const name string = "golang"
 	// name = "javascript" if you give a value to const then it's value will not change and you can declar a value outside the function
 
-	
+	const (
+		port = 5000
+		host = "localhost"
+	)
+
+	fmt.Println(port,host)
 
 	fmt.Println(name)
 	fmt.Println(age)
